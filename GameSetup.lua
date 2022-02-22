@@ -1,5 +1,5 @@
-local Players = game:GetService("Players") -- get the service Players to handle players later
-local RunService = game:GetService("RunService") -- Will be used later too 
+local Players = game:GetService("Players") -- get the service Players to handle players joining and leaving
+local RunService = game:GetService("RunService") -- Will be used to check if the game is running in studio 
 
 local ServerStorage = game.ServerStorage -- Making variables out of container for easier access
 local ReplicatedStorage = game.ReplicatedStorage
